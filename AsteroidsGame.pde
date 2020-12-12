@@ -40,7 +40,7 @@ public void draw()
   }
   for (int j=0; j<shots.size();j++){
     for (int i=0; i<bub.size();i++){
-    if(dist((float)bub.get(i).getX(), (float)bub.get(i).getY(), (float)shots.get(j).getX(), (float)shots.get(j).getY()) < 20){
+    if(dist((float)bub.get(i).getX(), (float)bub.get(i).getY(), (float)shots.get(j).getX(), (float)shots.get(j).getY()) < 10){
      shots.remove(j);
      bub.remove(i);
      break;
